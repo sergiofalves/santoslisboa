@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(239 255 241 / 80%);
+}
+
+h1 {
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+  font-weight: 200 !important;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+  font-weight: 100 !important;
+}
+
+.events-grid-container {
+  /* background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px; */
+}
