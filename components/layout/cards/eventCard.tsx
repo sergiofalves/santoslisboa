@@ -72,7 +72,7 @@ export default function EventCard({
                         justifyContent: "space-evenly",
                         alignItems: "flex-start",
                     }}>
-                    <Typography sx={{ fontWeight: "bold" }} variant="body1" gutterBottom>
+                    <Typography sx={{ fontWeight: "bold", maxWidth: '95%' }} variant="body1" gutterBottom>
                         {artist}
                     </Typography>
                     <Divider sx={{ my: 1, alignSelf: 'stretch' }} />
