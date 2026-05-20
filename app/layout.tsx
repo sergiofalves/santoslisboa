@@ -5,8 +5,8 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 
 
 export const metadata: Metadata = {
-  title: "Festas de Lisboa 2026",
-  description: "Descobre e planeia os teus eventos das Festas de Lisboa 2026 — arraiais, marchas e concertos por toda a cidade.",
+  title: "Santos Populares de Lisboa 2026",
+  description: "Descobre e planeia os teus eventos dos Santos Populares de Lisboa 2026 — arraiais, marchas e concertos por toda a cidade.",
 };
 
 export const viewport = {
