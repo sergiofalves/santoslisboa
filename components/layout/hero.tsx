@@ -1,33 +1,30 @@
-'use client';
-
-import Stack from '@mui/material/Stack';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
+import heroImg from '../../public/img/manjerico.png';
 
-function Hero() {
-
-    const artists = ["a", "b", "c"];
-
+export default function Hero() {
     return (
-        <Stack spacing={2} style={{
-            minHeight: "200px",
-            backgroundImage: "url('/festas-de-Lisboa-2026.png')",
-            backgroundSize: "contain",
-            backgroundPosition: "right",
-            backgroundRepeat: "no-repeat",
-            alignItems: "center",
-            justifyContent: "center"
-        }}>
-            <Typography sx={{ maxWidth: '50%' }} variant="h1">Organiza-te e Participa Nas Festas de Lisboa 2026</Typography>
-            {/* <Autocomplete
-                disablePortal
-                options={artists}
-                sx={{ width: 300 }}
-                renderInput={(params) => <TextField {...params} label="Artista" />}
-            /> */}
-        </Stack>
+        <Box
+            component="header"
+            className="hero"
+            sx={{
+                px: { xs: '1.25rem', sm: '8vw' },
+                py: { xs: '1.5rem', sm: '3rem' },
+                display: 'flex',
+                alignItems: 'center',
+                minHeight: { xs: '160px', sm: '220px' }
+            }}
+        >
+            <Box sx={{ width: "100%", backgroundImage: `url(${heroImg.src})`, backgroundSize: "auto 90%", backgroundPosition: "right bottom", backgroundRepeat: "no-repeat" }}>
+                <Box sx={{ maxWidth: { xs: '65%', sm: '55%' } }}>
+                    <Typography variant="h1" component="h1">
+                        Santos Populares de Lisboa
+                    </Typography>
+                    <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
+                        Descobre arraiais, marchas e concertos por toda a cidade
+                    </Typography>
+                </Box>
+            </Box>
+        </Box>
     );
 }
-
-export default Hero;
