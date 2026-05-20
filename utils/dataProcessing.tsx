@@ -33,7 +33,7 @@ export async function getData() {
             if (artist) {
                 const dayString = row[0] || 'Unknown';
                 if (dayString !== 'Unknown' && dayString !== 'Dia da Semana') {
-                    allShows.push({ place, artist, day: parsePortugueseDate(dayString), dayPT: dayString });
+                    allShows.push({ place: place.trim(), artist: artist.trim(), day: parsePortugueseDate(dayString), dayPT: dayString });
                 }
             }
         }
