@@ -28,8 +28,8 @@ const placeCoordinates: Record<string, [number, number]> = {
     'Arraial da Mouraria (Largo da Rosa)': [38.7160, -9.1350],
     'Arraial do Magalhães (Largo do Salvador, Alfama)': [38.7126, -9.1306],
     'Santos (Terrapleno de Santos)': [38.7058, -9.1557],
-    'Arraial dos Combatentes (Rua Possidónio da Silva nº206)': [38.71269607543945, -9.1724],
-    'Arraial da Fonte Santa                             (Rua Possidónio da Silva)': [38.7062, -9.166760444641113],
+    'Arraial dos Combatentes (Rua Possidónio da Silva nº206)': [38.71281814575195, -9.165628433227539],
+    'Arraial da Fonte Santa                             (Rua Possidónio da Silva)': [38.71269607543945, -9.166760444641113],
     'Arraial da Praça da Alegria            by                     SUPER BOCK': [38.7176, -9.1450],
     'Arraial de São Miguel\n(Largo de São\nMiguel, Alfama)': [38.7118, -9.1298],
     'Arraial da Bica': [38.7083, -9.1465],
@@ -40,9 +40,11 @@ const placeCoordinates: Record<string, [number, number]> = {
     'Arraial de São Vicente (Largo da Graça)': [38.71737289428711, -9.129920959472656],
     'Arraial de Alcântara (Rua da Cascalheira Alcântara)': [38.707576751708984, -9.174691200256348],
     'Arraial Ginásio Alto do Pina (Penha de França)                 by                     SUPER BOCK': [38.7323, -9.1287],
-    'Arraiais  Alvalade': [38.7523, -9.1418],
-    'Campo de Ourique  (Bombeiros Voluntários de Campo de Ourique)                   by                         SUPER BOCK': [38.7186, -9.1678],
-    'Romaria de Santo Amaro (Alto de Santo Amaro, Alcântara)': [38.7032, -9.1824],
+    'Arraiais  Alvalade (Complexo Desportivo Municipal de São João de Brito)': [38.7609181, -9.1351822],
+    'Campo de Ourique  (Bombeiros Voluntários de Campo de Ourique)                   by                         SUPER BOCK': [38.7220245, -9.1655893],
+    'Romaria de Santo Amaro (Alto de Santo Amaro, Alcântara)': [38.70498275756836, -9.187607765197754],
+    'Arraial NIT (Centro de Cultura Popular de Santa Engrácia)': [38.71905517578125, -9.120245933532715],
+    'Arrail do Clube Atletico Arroios': [38.73054504394531, -9.136157035827637],
 };
 
 type Event = { place: string; artist: string; day: Date; dayPT: string };

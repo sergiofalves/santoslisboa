@@ -17,7 +17,7 @@ export function parsePortugueseDate(dateString: string): Date {
 
 export async function getData() {
     const res = await fetch(
-        'https://docs.google.com/spreadsheets/d/1pIPzAs4YmoHYlJvc_9-eivOI3GDvnbZT/export?format=csv&gid=421994152'
+        'https://docs.google.com/spreadsheets/d/1CElA8rN6gbnsoX43MHnxNjzngd7yrldr/export?format=csv'
     );
     const csvText = await res.text();
     const { data: rows } = Papa.parse<string[]>(csvText, { header: false, skipEmptyLines: true });
